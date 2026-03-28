@@ -2,7 +2,7 @@
   "warehouse": "bigquery",
   "defaultSchema": "dataform",
   "assertionSchema": "dataform_assertions",
-  "defaultDatabase": "ec-data-platform-2026",
+  "defaultDatabase": "ec-data-platform-dfm-2026",
   "defaultLocation": "asia-northeast1",
   "vars": {}
 }
