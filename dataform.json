@@ -3,6 +3,6 @@
   "defaultSchema": "dataform",
   "assertionSchema": "dataform_assertions",
   "defaultDatabase": "ec-data-platform-2026",
-  "defaultLocation": "US",
+  "defaultLocation": "asia-northeast1",
   "vars": {}
 }
