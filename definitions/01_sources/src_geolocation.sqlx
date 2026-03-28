@@ -1,0 +1,14 @@
+config {
+  type: "view",
+  schema: "01_import",
+  name: "src_geolocation",
+  description: "郵便番号×緯度経度のソースview"
+}
+
+SELECT
+    geolocation_zip_code_prefix,
+    geolocation_lat,
+    geolocation_lng,
+    geolocation_city,
+    geolocation_state
+FROM ${ref("geolocation")}

@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "ec-data-platform-2026",
+  schema: "01_import",
+  name: "sellers",
+  description: "販売者マスタ（約3,000件）"
+}

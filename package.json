@@ -1,0 +1,6 @@
+{
+  "name": "ec-data-platform-dataform",
+  "dependencies": {
+    "@dataform/core": "3.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+config {
+  type: "view",
+  schema: "01_import",
+  name: "src_product_category_name_translation",
+  description: "カテゴリ翻訳マスタのソースview"
+}
+
+SELECT
+    product_category_name,
+    product_category_name_english
+FROM ${ref("product_category_name_translation")}

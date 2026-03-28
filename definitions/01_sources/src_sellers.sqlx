@@ -1,0 +1,13 @@
+config {
+  type: "view",
+  schema: "01_import",
+  name: "src_sellers",
+  description: "販売者マスタのソースview"
+}
+
+SELECT
+    seller_id,
+    seller_zip_code_prefix,
+    seller_city,
+    seller_state
+FROM ${ref("sellers")}

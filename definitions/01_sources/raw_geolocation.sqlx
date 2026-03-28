@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "ec-data-platform-2026",
+  schema: "01_import",
+  name: "geolocation",
+  description: "郵便番号×緯度経度（約100万件）"
+}

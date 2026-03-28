@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "ec-data-platform-2026",
+  schema: "01_import",
+  name: "order_payments",
+  description: "支払情報（約103,000件）"
+}

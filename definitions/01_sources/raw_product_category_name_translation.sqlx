@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "ec-data-platform-2026",
+  schema: "01_import",
+  name: "product_category_name_translation",
+  description: "カテゴリ翻訳マスタ（約70件）"
+}

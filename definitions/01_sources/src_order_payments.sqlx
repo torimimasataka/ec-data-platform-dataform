@@ -1,0 +1,14 @@
+config {
+  type: "view",
+  schema: "01_import",
+  name: "src_order_payments",
+  description: "支払情報のソースview"
+}
+
+SELECT
+    order_id,
+    payment_sequential,
+    payment_type,
+    payment_installments,
+    payment_value
+FROM ${ref("order_payments")}

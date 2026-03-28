@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "ec-data-platform-2026",
+  schema: "01_import",
+  name: "order_items",
+  description: "注文明細（約112,000件）"
+}
